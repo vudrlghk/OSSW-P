@@ -16,8 +16,6 @@
 | Version | Date | Description |
 |---|---|---|
 | 0.1 | 2026-03-26 | 초안 작성 |
-| 0.5 | 2026-03-26 | 게임 컨셉 및 시스템 구조 정리 |
-| 1.0 | 2026-03-26 | 제출용 Markdown 형식 정리 |
 
 ---
 
@@ -340,25 +338,8 @@ Player / Game System
 
 | Term | Description |
 |---|---|
-| Roguelike | 반복 플레이를 기반으로 하며, 전투와 탐험, 성장 요소를 중심으로 진행되는 게임 장르이다. |
-| Turn-based | 플레이어와 적이 순서를 나누어 행동하는 진행 방식이다. |
-| Exploration | 지역을 이동하고 조사하면서 정보, 아이템, 이벤트를 발견하는 플레이 방식이다. |
-| Static Image | 움직이는 연출 대신 장면이나 분위기를 보여주기 위해 사용하는 정적인 이미지이다. |
-| Fame | 전투 결과나 특정 행동을 통해 획득되는 수치로, 누적될 경우 특수 이벤트 발생 조건으로 사용된다. |
-| Special Event | 명성치나 특정 조건을 만족했을 때 일반 진행과 다르게 발생하는 숨겨진 이벤트이다. |
-| Character Switching | 특정 지점이나 스토리 조건에 따라 조작하는 캐릭터가 다른 인물로 전환되는 구조이다. |
-| Legacy System | 이전 캐릭터의 선택, 업적, 생존 여부가 이후 진행과 세계 상태에 영향을 주는 시스템이다. |
-| World State | 지역 상태, 이벤트 발생 여부, NPC 반응 등 게임 세계의 현재 상황을 나타내는 데이터이다. |
-| Event Flag | 특정 사건이 발생했는지 여부를 기록하는 값으로, 이후 이벤트 분기 조건에 사용된다. |
-| NPC | 플레이어가 직접 조작하지 않는 게임 내 등장인물이다. |
-| Party System | 조건을 만족한 캐릭터들이 재회하여 함께 행동하거나 전투에 참여할 수 있도록 하는 시스템이다. |
-| Epilogue | 캐릭터의 업적이나 선택 결과에 따라 보여지는 후일담 또는 결말 요소이다. |
-| Save Data | 캐릭터 정보, 명성치, 세계 상태, 이벤트 진행 상황 등을 저장하는 데이터이다. |
-| Auto Save | 주요 이벤트 종료, 캐릭터 전환, 진행 변화가 발생했을 때 자동으로 저장하는 기능이다. |
-| Object Interaction | 오브젝트를 조사하거나 사용하는 행위를 의미하며, 아이템 획득이나 이벤트 발생으로 이어질 수 있다. |
-| Dialogue Choice | NPC와의 대화나 이벤트 상황에서 제시되는 선택지로, 스토리 진행 결과에 영향을 준다. |
-| Achievement | 특정 조건을 만족했을 때 남는 기록이나 업적 요소로, 이후 세계 반영이나 후일담에 활용될 수 있다. |
-
+| Roguelike | 전통적으로 절차적으로 생성되는 레벨로 구성된 던전 탐험, 턴 기반의 게임플레이, 격자 기반의 움직임, 플레이어 캐릭터의 영구적 죽음 등을 특징으로 하는 롤플레잉 비디오 게임의 한 유형이다. |
+| Unity | Unity 엔진은 게임 개발자가 20개 이상의 플랫폼과 수십억 개의 장치에서 비디오 게임을 만들 수 있도록 하는 게임 및 앱 개발 소프트웨어입니다. |
 ---
 
 ## 7. References
@@ -367,11 +348,4 @@ Player / Game System
    https://ko.wikipedia.org/wiki/%EB%A1%9C%EA%B7%B8%EB%9D%BC%EC%9D%B4%ED%81%AC
 2. Unity Engine  
    https://unity.com/kr/products/unity-engine#engine-faq
-3. [OSSDesign] intro_SRUP.pdf, 수업 강의 자료
-4. 1. [Conceptualization] Example 1.pdf, 교수님 제공 Conceptualization 예시 자료
-5. 1. [Conceptualization] Example 3.pdf, 교수님 제공 Conceptualization 예시 자료
-6. 1. [Conceptualization] Example 4.pdf, 교수님 제공 Conceptualization 예시 자료
-7. 1. [Conceptualization] Example 6.pdf, 교수님 제공 Conceptualization 예시 자료
-8. 1. [Conceptualization] Example 7.pdf, 교수님 제공 Conceptualization 예시 자료
-9. 1. [Conceptualization] Example 8.pdf, 교수님 제공 Conceptualization 예시 자료
-10. 본인 제작 이미지 및 개인 기획 초안
+3. 본인 제작 이미지 및 개인 기획 초안
